@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "RISCV32EC",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../ch32v003fun",
+                "${workspaceFolder}/../../extralibs",
+                "/usr/include/newlib",
+                "/Users/colereinholt/ch32v003/ch32v003fun/ch32v003fun"
+            ],
+            "defines": [
+                "CH32V003",
+                "__riscv",
+                "USE_SIGNALS",
+                "CH32V003FUN_BASE"
+            ],
+            "compilerPath": "/usr/bin/riscv64-unknown-elf-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x86",
+            "compilerArgs": [],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
