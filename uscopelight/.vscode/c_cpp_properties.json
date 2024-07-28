@@ -6,7 +6,9 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/../../ch32v003fun",
                 "${workspaceFolder}/../../extralibs",
-                "/usr/include/newlib" //why? the configurationProvider ought to find this
+                "/usr/include/newlib",
+                "/Users/colereinholt/ch32v003/ch32v003fun/ch32v003fun",
+                "/Users/colereinholt/ch32v003/ch32v003fun/extralibs"
             ],
             "defines": [
                 "CH32V003",
@@ -17,7 +19,7 @@
             "compilerPath": "/usr/bin/riscv64-unknown-elf-gcc",
             "cStandard": "gnu11",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "gcc-x86", //works. Someday, intellisense might get riscv modes
+            "intelliSenseMode": "gcc-x86",
             "compilerArgs": [],
             "configurationProvider": "ms-vscode.makefile-tools"
         }
